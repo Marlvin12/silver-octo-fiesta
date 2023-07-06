@@ -2,10 +2,10 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 import os
 
 try:
-    blob_service_client = BlobServiceClient.from_connection_string("DefaultEndpointsProtocol=https;AccountName=pythonscript2storage;AccountKey=4MMt7dyNxFOzCV1zFQ07WEheMjmKPWP/4dBEr77dM5hkrmJsYtWNKqtWFISKvsWIF30CHygvGWJb+AStQ4uVkQ==;EndpointSuffix=core.windows.net")
+    blob_service_client = BlobServiceClient.from_connection_string("XXXXXXXXXXXXXXXXXX")
     
-    container_name = "pythonscript2blob"
-    local_path = "/Users/marlvin/Desktop/file2"
+    container_name = "XXXXXXXXXXXX"
+    local_path = "XXXXXXXXXXXXX"
     for filename in os.listdir(local_path):
         
         blob_client = blob_service_client.get_blob_client(container_name, filename)
