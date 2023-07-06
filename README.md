@@ -3,6 +3,8 @@
 ---
 
 # Azure Blob Storage Data Migration Utility
+<img width="1265" alt="Screenshot 2023-07-06 at 9 16 10 AM" src="https://github.com/Marlvin12/silver-octo-fiesta/assets/122947486/1c5bca86-2e09-472a-9efd-1476ed05e848">
+
 
 This utility is a Python script that automates the migration of data from a local directory to Azure Blob Storage. 
 
