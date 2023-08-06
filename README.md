@@ -24,7 +24,7 @@ First, ensure that you have Python 3.6 or later installed on your system. You ca
 
 Then, install the required Python package using pip:
 
-```bash
+```bash.
 pip install azure-storage-blob
 ```
 
